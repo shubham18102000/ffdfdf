@@ -3,4 +3,4 @@
 console.log(Math)// math is object and having many  property
 
 
-console.log(Math.sqrt(4));
+console.log(Math.floor(4.777));
