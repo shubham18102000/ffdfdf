@@ -5,3 +5,9 @@ for (i=0; i<6; i++)
 {
 console.log(myarray[i]);
 }
+// deep copy 
+
+// array method 
+// push add element in the array 
+//myarray.push(9);
+//console.log(myarray);
