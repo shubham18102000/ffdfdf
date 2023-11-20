@@ -25,3 +25,15 @@ console.log(JsUser.email)
 // another way to call object is
 console.log(JsUser["email"])
 console.log(JsUser.mysymbol)
+
+// object *** freeze in javascript
+//Object.freeze(JsUser)
+
+//////////***************function in javacript */
+
+JsUser.greeting = function()
+{
+    console.log("this is function");
+}
+
+console.log(JsUser.greeting());
