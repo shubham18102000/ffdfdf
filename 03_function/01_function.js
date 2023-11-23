@@ -23,3 +23,12 @@ function loginuser(username)
     return `${username} just logged in`
 }
 console.log(loginuser("shubham"))
+
+// rest and spread operator in javascript
+
+function calculator(...num1)// rest opeartor
+{
+    return num1
+}
+console.log(calculator(200, 300, 400));// return value in the form of the array //out
+//output is : [ 200, 300, 400 ];
