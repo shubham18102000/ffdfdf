@@ -23,7 +23,13 @@ map.set("IN", "India");
 //   }
 
 
-for (const key of  map)
+for (const [key, value] of  map)// differentate the array in form of key and value
+
 {
-    console.log(key)
-}
+    console.log(key, ":-", value);//destructure the array
+} 
+// output
+// INS  :- India
+// Usa :- United states of america
+// fr :- france
+// IN :- India
